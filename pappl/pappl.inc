@@ -12,7 +12,12 @@ inherit autotools-brokensep binconfig pkgconfig
 CLEANBROKEN = "1"
 EXTRA_AUTORECONF += "--exclude=autoheader"
 
+PACKAGES =+ "${PN}-tools"
+
 FILES_${PN} = " /usr/lib/libpappl.so.1 /usr/share/pappl"
+FILES_${PN}-tools = " \
+	/usr/bin/* \
+"
 
 RDEPENDS_${PN} = "avahi-daemon libcups openssl jpeg libavahi-client libpng libusb1 zlib"
 

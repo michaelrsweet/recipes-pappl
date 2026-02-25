@@ -25,7 +25,7 @@ From there you just add a dependency on "pappl" to get PAPPL and its
 dependencies added to your image(s).
 
 > *Note:* The "master" branch of this repository tracks the current stable
-> release of PAPPL...
+> release of PAPPL and libcups...
 
 For USB gadget support you'll need to enable `CONFIG_USB_CONFIGFS_F_PRINTER`
 and `CONFIG_USB_G_PRINTER` (set to "m") in your Linux kernel "defconfig" file.
@@ -34,7 +34,7 @@ and `CONFIG_USB_G_PRINTER` (set to "m") in your Linux kernel "defconfig" file.
 Legal Stuff
 -----------
 
-PAPPL is Copyright © 2019-2024 by Michael R Sweet.
+PAPPL is Copyright © 2019-2026 by Michael R Sweet.
 
 This software is licensed under the Apache License Version 2.0 with an
 (optional) exception to allow linking against GPL2/LGPL2 software (like older
