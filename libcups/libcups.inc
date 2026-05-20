@@ -4,7 +4,7 @@ SECTION = "console/utils"
 LICENSE = "Apache-2.0"
 DEPENDS = "avahi openssl zlib"
 
-SRC_URI = "https://github.com/OpenPrinting/libcups/releases/download/v${PV}/libcups-${PV}.tar.gz"
+SRC_URI = "https://github.com/OpenPrinting/libcups/releases/download/v${PV}/libcups-${PV}-source.tar.gz"
 
 inherit autotools-brokensep binconfig pkgconfig
 
