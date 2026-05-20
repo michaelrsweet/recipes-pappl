@@ -14,8 +14,8 @@ EXTRA_OECONF = "--with-tls=openssl --prefix=/usr --sysconfdir=${CUPS_SYSCONFDIR}
 
 PACKAGES =+ "${PN}-tools"
 
-FILES_${PN} = "${libdir}/libcups3.so.* ${CUPS_SYSCONFDIR}"
-FILES_${PN}-tools = " \
+//FILES_${PN} = "${libdir}/libcups3.so.* ${CUPS_SYSCONFDIR}"
+FILES:${PN}-tools = " \
 	/usr/bin/* \
 	/usr/share/libcups3/* \
 "

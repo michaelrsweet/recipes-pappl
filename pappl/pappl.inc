@@ -14,8 +14,11 @@ EXTRA_AUTORECONF += "--exclude=autoheader"
 
 PACKAGES =+ "${PN}-tools"
 
-FILES_${PN} = " /usr/lib/libpappl.so.1 /usr/share/pappl"
-FILES_${PN}-tools = " \
+#FILES_${PN} = " /usr/lib/libpappl.so.1 /usr/share/pappl"
+#FILES_${PN}-tools = " \
+#	/usr/bin/* \
+#"
+FILES:${PN}-tools = " \
 	/usr/bin/* \
 "
 
