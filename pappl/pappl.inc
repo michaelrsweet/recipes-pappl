@@ -26,5 +26,7 @@ RDEPENDS_${PN} = "avahi-daemon libcups openssl jpeg libavahi-client libpng libus
 
 # Override autotools_do_configure to prevent removal of the configure script...
 autotools_do_configure() {
+	DSOFLAGS="${LDFLAGS}"
+	export DSOFLAGS
 	oe_runconf
 }
