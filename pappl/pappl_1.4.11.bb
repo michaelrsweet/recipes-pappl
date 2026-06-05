@@ -1,0 +1,6 @@
+require pappl.inc
+
+LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
+
+SRC_URI[md5sum] = "7b416cf3a8768c25407514265d5b6f73"
+SRC_URI[sha256sum] = "8d944a3adab1d19d70148037aaf14edb22be2234a2d2eaef20557f0ba66b5e6a"
