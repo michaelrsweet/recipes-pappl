@@ -1,8 +1,0 @@
-require libcups.inc
-
-CUPS_SYSCONFDIR = "/etc"
-
-LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
-
-SRC_URI[md5sum] = "2409934bcabc4cb8f4a9bce506a845b2"
-SRC_URI[sha256sum] = "400466c540c4439bbd8d72b2ac5644914f586b1da02b09ce7fa7416df5b51264"
